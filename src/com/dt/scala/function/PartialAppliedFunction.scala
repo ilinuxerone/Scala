@@ -9,9 +9,15 @@ object PartialAppliedFunction {
     def sum(a : Int, b : Int, c : Int) = a + b + c
     println(sum(1,2,3))
     
+<<<<<<< HEAD
 /*    val fp_a = sum _ 
     println(fp_a(1,2,3))
     println(fp_a.apply(1,2,3))*/
+=======
+    val fp_a = sum _ 
+    println(fp_a(1,2,3))
+    println(fp_a.apply(1,2,3))
+>>>>>>> ed3a7b86a1a7c20dff3a6bb34b9d92dad79f391a
     
     val fp_b = sum(1, _ : Int, 3)
     println(fp_b(2))
