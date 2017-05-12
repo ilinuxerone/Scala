@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hbase-demos" />
+        <module name="learn-scala" />
+        <module name="oozie" />
+        <module name="spark-demos" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hbase-demos" target="1.5" />
+      <module name="learn-scala" target="1.5" />
+      <module name="oozie" target="1.5" />
+      <module name="spark" target="1.5" />
+      <module name="spark-demos" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

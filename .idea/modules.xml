@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hbase-demos/hbase-demos.iml" filepath="$PROJECT_DIR$/hbase-demos/hbase-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-scala/learn-scala.iml" filepath="$PROJECT_DIR$/learn-scala/learn-scala.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oozie/oozie.iml" filepath="$PROJECT_DIR$/oozie/oozie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark.iml" filepath="$PROJECT_DIR$/spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-demos/spark-demos.iml" filepath="$PROJECT_DIR$/spark-demos/spark-demos.iml" />
+    </modules>
+  </component>
+</project>
