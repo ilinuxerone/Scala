@@ -63,6 +63,10 @@ object DataFrameOps {
       })
     }
 
+    //转换
+    
+
+
     rawDF.write.save("people")
     sc.stop()
   }

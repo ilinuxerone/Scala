@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3213f367-aeee-47f7-9a10-475ca3f150b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_core_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_rwl_jtransforms_2_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_f2j_arpack_combined_all_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_graphx_2_11_1_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_mllib_2_11_1_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_agent_1_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_model_1_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jpmml_pmml_schema_1_1_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_2_11_0_11_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scalanlp_breeze_macros_2_11_0_11_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spire_math_spire_2_11_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_spire_math_spire_macros_2_11_0_7_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/json/people.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrame.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/SqlOps.scala" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.cache-main" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dt/scala/basics/FastScala.scala" afterPath="" />
@@ -60,12 +41,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/process/command.scala" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/process/output.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/regex/reg.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/target/classes/com/bigdata/examples/sparksql/Json2DataFrame$.class" afterPath="$PROJECT_DIR$/spark-demos/target/classes/com/bigdata/examples/sparksql/Json2DataFrame$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/pom.xml" afterPath="$PROJECT_DIR$/spark-demos/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/spark-demos.iml" afterPath="$PROJECT_DIR$/spark-demos/spark-demos.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_7.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/learn-scala/target/" />
@@ -104,8 +81,8 @@
       <file leaf-file-name="DataFrameOps.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="356">
+              <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
               <folding>
                 <element signature="e#39#84#0" expanded="true" />
               </folding>
@@ -116,11 +93,21 @@
       <file leaf-file-name="SqlOps.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/SqlOps.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="37">
+              <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
               <folding>
                 <element signature="e#39#88#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RDD.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/1.5.1/spark-core_2.11-1.5.1.jar!/org/apache/spark/rdd/RDD.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1049,16 +1036,16 @@
       <workItem from="1494250388002" duration="8000" />
       <workItem from="1494251879603" duration="6330000" />
       <workItem from="1494598454707" duration="2883000" />
-      <workItem from="1494680616363" duration="7736000" />
+      <workItem from="1494680616363" duration="7794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34018000" />
+    <option name="totallyTimeSpent" value="34076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1072,7 +1059,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51369864" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19520548" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48630136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1148,7 +1135,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala</url>
-          <line>65</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -1166,7 +1153,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala</url>
-          <line>66</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -1192,13 +1179,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/Person.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/PatternMatch.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -1563,18 +1543,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/SqlOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="37">
+          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
           <folding>
             <element signature="e#39#88#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/1.5.1/spark-core_2.11-1.5.1.jar!/org/apache/spark/rdd/RDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="356">
+          <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
           <folding>
             <element signature="e#39#84#0" expanded="true" />
           </folding>
