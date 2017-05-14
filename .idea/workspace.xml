@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3213f367-aeee-47f7-9a10-475ca3f150b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/people.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByCaseClass.scala" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.cache-main" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-demos/target/classes/com/bigdata/examples/sparksql/Rdd2DataFrame$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spark-demos/target/classes/com/bigdata/examples/sparksql/Rdd2DataFrame.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dt/scala/basics/FastScala.scala" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dt/scala/basics/FunctionOps.scala" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/dt/scala/basics/Oop.scala" afterPath="" />
@@ -43,6 +47,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/regex/reg.scala" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrame.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByReflect.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/learn-scala/target/" />
@@ -78,68 +83,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataFrameOps.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala">
+      <file leaf-file-name="Rdd2DataFrameByCaseClass.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByCaseClass.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+            <state relative-caret-position="50">
+              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
-                <element signature="e#39#84#0" expanded="true" />
+                <element signature="e#39#77#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SqlOps.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/SqlOps.scala">
+      <file leaf-file-name="Rdd2DataFrameByReflect.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByReflect.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="266">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
-                <element signature="e#39#88#0" expanded="true" />
+                <element signature="e#39#107#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RDD.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/1.5.1/spark-core_2.11-1.5.1.jar!/org/apache/spark/rdd/RDD.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rdd2DataFrame.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrame.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Json2DataFrame.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Json2DataFrame.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-              <folding>
-                <element signature="e#39#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="people.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/data/json/people.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -197,6 +160,10 @@
         <option value="$PROJECT_DIR$/spark-demos/src/main/data/json/people.json" />
         <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/SqlOps.scala" />
         <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" />
+        <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrame.scala" />
+        <option value="$PROJECT_DIR$/spark-demos/src/main/data/text/people.txt" />
+        <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByReflect.scala" />
+        <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByCaseClass.scala" />
       </list>
     </option>
   </component>
@@ -312,10 +279,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -420,47 +383,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-demos" />
   </component>
-  <component name="RunManager" selected="Application.SqlOps">
-    <configuration default="false" name="PatternMatch" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hw.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hw.oop.PatternMatch" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learn-scala" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="CaseClassDemo" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hw.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hw.oop.CaseClassDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learn-scala" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Rdd2DataFrameByCaseClass">
     <configuration default="false" name="Json2DataFrame" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -509,6 +432,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.bigdata.examples.sparksql.SqlOps" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-demos" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rdd2DataFrameByReflect" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bigdata.examples.sparksql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.examples.sparksql.Rdd2DataFrameByReflect" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-demos" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rdd2DataFrameByCaseClass" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bigdata.examples.sparksql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.examples.sparksql.Rdd2DataFrameByCaseClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -995,19 +958,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PatternMatch" />
-      <item index="1" class="java.lang.String" itemvalue="Application.CaseClassDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Json2DataFrame" />
-      <item index="3" class="java.lang.String" itemvalue="Application.DataFrameOps" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SqlOps" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Json2DataFrame" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DataFrameOps" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SqlOps" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Rdd2DataFrameByReflect" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Rdd2DataFrameByCaseClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SqlOps" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DataFrameOps" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Json2DataFrame" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CaseClassDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PatternMatch" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Rdd2DataFrameByCaseClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Rdd2DataFrameByReflect" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SqlOps" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DataFrameOps" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Json2DataFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -1036,16 +999,16 @@
       <workItem from="1494250388002" duration="8000" />
       <workItem from="1494251879603" duration="6330000" />
       <workItem from="1494598454707" duration="2883000" />
-      <workItem from="1494680616363" duration="7794000" />
+      <workItem from="1494680616363" duration="11224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34076000" />
+    <option name="totallyTimeSpent" value="37506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1059,7 +1022,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19520548" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6421233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48630136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1067,9 +1030,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3458904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0051369863" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42465752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16792738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16565809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1169,8 +1132,26 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByCaseClass.scala</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByCaseClass.scala</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByCaseClass.scala</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1179,42 +1160,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/PatternMatch.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="3" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/Cache.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-demos/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learn-scala/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/HelloWorld.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1491,24 +1436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Json2DataFrame.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
-          <folding>
-            <element signature="e#39#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spark-demos/src/main/data/json/people.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1559,12 +1486,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/1.5.1/spark-catalyst_2.11-1.5.1.jar!/org/apache/spark/sql/types/DataType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="66" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        <state relative-caret-position="38">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/1.5.1/spark-catalyst_2.11-1.5.1.jar!/org/apache/spark/sql/types/StructField.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="102" lean-forward="false" selection-start-line="1" selection-start-column="102" selection-end-line="1" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Json2DataFrame.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="16" column="121" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="121" />
           <folding>
             <element signature="e#39#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="69" column="10" lean-forward="false" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+          <folding>
+            <element signature="e#39#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/data/text/people.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/perple1/part-r-00000-1eef9f86-a38e-4f7a-8373-9db5b813fd27">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByReflect.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#39#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Rdd2DataFrameByCaseClass.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#39#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
