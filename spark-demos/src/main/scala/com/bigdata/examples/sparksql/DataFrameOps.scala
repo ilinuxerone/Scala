@@ -19,7 +19,9 @@ object DataFrameOps {
 
     //获取指定列schema的类型和名字
     val name = rawDF.schema.asInstanceOf[Seq[Row]](0).asInstanceOf[StructField].name
+    val name2 = rawDF.schema.asInstanceOf[Seq[StructField]](0).name
     val datatype = rawDF.schema.asInstanceOf[Seq[Row]](0).asInstanceOf[StructField].dataType
+    val datatype2 = rawDF.schema.asInstanceOf[Seq[StructField]](0).dataType
     println("name: " + name + "dataType: "  + datatype)
 
     //查看内容
@@ -35,11 +37,12 @@ object DataFrameOps {
 
     //根据列序号获取
     val singColsByindex = rawDF.select(rawDF.schema.asInstanceOf[Seq[Row]](0).asInstanceOf[StructField].name).show()
+    val singColsByindex2 = rawDF.select(rawDF.schema.asInstanceOf[Seq[StructField]](0).name).show()
 
     //过滤
     val filters = rawDF.filter(rawDF.col("age").gt(25)).show()
 
-    //分组
+    //聚合(分组)
    val groups =  rawDF.groupBy("age").count().show()
 
     //排序

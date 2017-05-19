@@ -1,6 +1,6 @@
 package com.bigdata.examples.sparksql
 
-import org.apache.spark.sql.types.StructField
+import org.apache.spark.sql.types.{ArrayType, StringType, StructField, StructType}
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -25,6 +25,9 @@ object Json2DataFrame {
     |-- reason: string (nullable = true)
     |-- status: string (nullable = true)
     |-- user: string (nullable = true)*/
+    val schema = StructType(Seq(StructField("user", StringType, false), StructField("status", StringType, false), StructField("reason", StringType, false),
+      StructField("dates", ArrayType(StringType), false), StructField("content", ArrayType(StructType(Seq(StructField("bar", StringType, false), StructField("foo", StringType, false)))), false)))
+     println(schema)
     //val rdd = rawRdd.select(rawRdd.schema.asInstanceOf[Seq[Row]](0).name)
     val rdd = rawdf.select(rawdf.schema.asInstanceOf[Seq[Row]](4).asInstanceOf[StructField].name,rawdf.schema.asInstanceOf[Seq[Row]](0).asInstanceOf[StructField].name).map(row => {
       val user = row.getString(0)
