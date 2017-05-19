@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3213f367-aeee-47f7-9a10-475ca3f150b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/utils/FlatMapUtils.scala" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.cache-main" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
@@ -44,8 +45,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/process/output.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/regex/reg.scala" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Json2DataFrame.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Json2DataFrame.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/learn-scala/target/" />
@@ -84,53 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MapTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/dataType/basic/MapTest.scala">
+      <file leaf-file-name="FlatMapUtils.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/utils/FlatMapUtils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="people.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/data/json/people.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataFrameOps.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Json2DataFrame.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Json2DataFrame.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-              <folding>
-                <element signature="e#39#121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayType.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-catalyst_2.11/1.5.1/spark-catalyst_2.11-1.5.1-sources.jar!/org/apache/spark/sql/types/ArrayType.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="12">
+              <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -209,6 +166,7 @@
         <option value="$PROJECT_DIR$/learn-scala/src/main/java/com/hw/domain/User.java" />
         <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/DataFrameOps.scala" />
         <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Json2DataFrame.scala" />
+        <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/utils/FlatMapUtils.scala" />
       </list>
     </option>
   </component>
@@ -384,7 +342,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sparksql" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,27 +442,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-demos" />
   </component>
-  <component name="RunManager" selected="Application.Json2DataFrame">
-    <configuration default="false" name="JsonUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hw.json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.hw.json.JsonUtil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="learn-scala" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FlatMapUtils">
     <configuration default="false" name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -573,6 +511,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.bigdata.examples.sparksql.Json2DataFrame" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-demos" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FlatMapUtils" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bigdata.examples.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.examples.utils.FlatMapUtils" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1059,19 +1017,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.JsonUtil" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Student" />
-      <item index="2" class="java.lang.String" itemvalue="Application.UserBean" />
-      <item index="3" class="java.lang.String" itemvalue="Application.User" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Json2DataFrame" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Student" />
+      <item index="1" class="java.lang.String" itemvalue="Application.UserBean" />
+      <item index="2" class="java.lang.String" itemvalue="Application.User" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Json2DataFrame" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FlatMapUtils" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Json2DataFrame" />
-        <item index="1" class="java.lang.String" itemvalue="Application.User" />
-        <item index="2" class="java.lang.String" itemvalue="Application.UserBean" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Student" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JsonUtil" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FlatMapUtils" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Json2DataFrame" />
+        <item index="2" class="java.lang.String" itemvalue="Application.User" />
+        <item index="3" class="java.lang.String" itemvalue="Application.UserBean" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -1101,12 +1059,12 @@
       <workItem from="1494251879603" duration="6330000" />
       <workItem from="1494598454707" duration="2883000" />
       <workItem from="1494680616363" duration="12671000" />
-      <workItem from="1494856815231" duration="13161000" />
+      <workItem from="1494856815231" duration="14334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52114000" />
+    <option name="totallyTimeSpent" value="53287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1119,7 +1077,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1134,7 +1092,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44863012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43664384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20719178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1143,9 +1101,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36472604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42465752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14674735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1732224" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1281,8 +1239,14 @@
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/utils/FlatMapUtils.scala</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1291,13 +1255,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/people/_metadata">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/part-00000">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1715,11 +1672,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/sparksql/Json2DataFrame.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        <state relative-caret-position="163">
+          <caret line="27" column="56" lean-forward="false" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
           <folding>
             <element signature="e#39#121#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/utils/FlatMapUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
