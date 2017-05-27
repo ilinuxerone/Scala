@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3213f367-aeee-47f7-9a10-475ca3f150b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/access.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/PageView.scala" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.cache-main" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
@@ -44,24 +46,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/process/command.scala" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/process/output.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/scala/regex/reg.scala" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/target/classes/com/bigdata/examples/common/DistinctUtils$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/spark-demos/target/classes/com/bigdata/examples/common/DistinctUtils$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/target/classes/com/bigdata/examples/common/DistinctUtils$.class" afterPath="$PROJECT_DIR$/spark-demos/target/classes/com/bigdata/examples/common/DistinctUtils$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/a.txt" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/a.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/b.txt" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/b.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/china" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/china" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/eightteen_a.txt" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/eightteen_a.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/eightteen_b.txt" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/eightteen_b.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/english" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/english" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/math" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/math" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/sort1" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/sort1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/data/text/sort2" afterPath="$PROJECT_DIR$/spark-demos/src/main/data/text/sort2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/doc/ReadMe" afterPath="$PROJECT_DIR$/spark-demos/src/main/doc/ReadMe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/AverageUtils.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/AverageUtils.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/DistinctUtils.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/DistinctUtils.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/MaxMinUtils.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/MaxMinUtils.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/SortUtils.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/SortUtils.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/TopNUtils.scala" afterPath="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/TopNUtils.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/learn-scala/target/" />
@@ -100,14 +85,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TopNUtils.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TopNUtils.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/TopNUtils.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="18" column="185" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="185" />
               <folding>
                 <element signature="e#37#76#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageView.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/PageView.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#37#76#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="access.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spark-demos/src/main/data/text/access.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/Function.scala" />
-        <option value="$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/PatternMatch.scala" />
         <option value="$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/Person.scala" />
         <option value="$PROJECT_DIR$/learn-scala/src/main/scala/com/hw/oop/CaseClassDemo.scala" />
         <option value="$PROJECT_DIR$/oozie/pom.xml" />
@@ -221,6 +226,8 @@
         <option value="$PROJECT_DIR$/spark-demos/src/main/data/text/b.txt" />
         <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/MaxMinUtils.scala" />
         <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/TopNUtils.scala" />
+        <option value="$PROJECT_DIR$/spark-demos/src/main/data/text/access.txt" />
+        <option value="$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/PageView.scala" />
       </list>
     </option>
   </component>
@@ -526,27 +533,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spark-demos" />
   </component>
-  <component name="RunManager" selected="Application.TopNUtils">
-    <configuration default="false" name="DistinctUtils" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bigdata.examples.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bigdata.examples.common.DistinctUtils" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spark-demos" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PageView">
     <configuration default="false" name="SortUtils" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -615,6 +602,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.bigdata.examples.common.TopNUtils" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spark-demos" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PageView" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bigdata.examples.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bigdata.examples.common.PageView" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1101,19 +1108,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DistinctUtils" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SortUtils" />
-      <item index="2" class="java.lang.String" itemvalue="Application.AverageUtils" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MaxMinUtils" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TopNUtils" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SortUtils" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AverageUtils" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MaxMinUtils" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TopNUtils" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PageView" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TopNUtils" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MaxMinUtils" />
-        <item index="2" class="java.lang.String" itemvalue="Application.AverageUtils" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SortUtils" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DistinctUtils" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PageView" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TopNUtils" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MaxMinUtils" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AverageUtils" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SortUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -1144,12 +1151,12 @@
       <workItem from="1494598454707" duration="2883000" />
       <workItem from="1494680616363" duration="12671000" />
       <workItem from="1494856815231" duration="16560000" />
-      <workItem from="1495463963053" duration="8879000" />
+      <workItem from="1495463963053" duration="9754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64392000" />
+    <option name="totallyTimeSpent" value="65267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1162,7 +1169,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1186,7 +1193,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33732876" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36130136" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42465752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11422088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1383,20 +1390,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar!/com/fasterxml/jackson/annotation/JsonProperty.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/json4s/json4s-jackson_2.11/3.5.0/json4s-jackson_2.11-3.5.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/learn-scala/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1777,10 +1770,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/data/text/access.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="101" lean-forward="false" selection-start-line="20" selection-start-column="101" selection-end-line="20" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/TopNUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="18" column="185" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="185" />
+          <folding>
+            <element signature="e#37#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spark-demos/src/main/scala/com/bigdata/examples/common/PageView.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#37#76#0" expanded="true" />
           </folding>
