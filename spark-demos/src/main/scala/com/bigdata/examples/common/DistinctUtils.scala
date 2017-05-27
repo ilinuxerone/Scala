@@ -17,10 +17,11 @@ object DistinctUtils {
     val sqlContext = new SQLContext(sc)
 
     val rawRdd = sc.textFile(Array("E:\\Workspace\\Scala\\spark-demos\\src\\main\\data\\text\\file1","E:\\Workspace\\Scala\\spark-demos\\src\\main\\data\\text\\file2").mkString(","))
-    val groupRdd = rawRdd.filter(_.trim().length>0).map(line=>(line.trim,"")).groupByKey()sortByKey()
-    val sortRdd = groupRdd.map(x => {
+    val groupRdd = rawRdd.filter(_.trim().length>0).map(line=>(line.trim,"")).groupByKey().sortByKey().keys
+/*    val sortRdd = groupRdd.map(x => {
       x._1
     })
-    sortRdd.foreach(println)
+    sortRdd.foreach(println)*/
+    groupRdd.foreach(println)
   }
 }
